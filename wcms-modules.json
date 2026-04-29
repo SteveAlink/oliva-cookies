@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "plugins": {
+        "oliva-cookies": {
+            "name": "OlivaCookies",
+            "repo": "https://github.com/SteveAlink/oliva-cookies/tree/main",
+            "zip": "https://github.com/SteveAlink/oliva-cookies/archive/main.zip",
+            "summary": "Cookie approval requestor. Simple cookie notice, not a full GDPR consent manager. It shows a banner and stores acceptance in a small functional cookie.",
+            "version": "1.0.1",
+            "image": "https://raw.githubusercontent.com/SteveAlink/oliva-cookies/main/preview.jpg"
+        }
+    }
+}
