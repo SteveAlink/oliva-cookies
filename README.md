@@ -10,25 +10,25 @@ Simple WonderCMS plugin that shows a cookie notice until the visitor clicks **Ac
 4. Prepare a page with name privacy as this is used in the link if visitor wants more information
 
 ## Language files
-Translations are stored in:
-plugins/OlivaCookies/languages/
-Included files:
-en_US.ini
+Translations are stored in:  
+plugins/OlivaCookies/languages/  
+Included files:  
+en_US.ini  
 nl_NL.ini
 
-Each language file can contain:
-noticeText = "Cookie notice text"
-buttonText = "Accept"
-moreText = "More information"
-moreUrl = "/privacy"
+Each language file can contain:  
+noticeText = "Cookie notice text"  
+buttonText = "Accept"  
+moreText = "More information"  
+moreUrl = "/privacy"  
 ariaLabel = "Cookie notice"
 
-The plugin reads the configured language from (as the standard HTML language value for visitors is not ISO coded: en_US is different from en_EN):
-$Wcms->get('config', 'contactFormLanguage');
+The plugin reads the configured language from (as the standard HTML language value for visitors is not ISO coded: en_US is different from en_EN):  
+$Wcms->get('config', 'contactFormLanguage');  
 If this value is empty, invalid, or missing, it falls back to `en_US` and populates the config value.
 
 ## Important
-This is a cookie notice plugin, not a full consent-management platform. It does not block third-party scripts before consent.
+This is a cookie notice plugin, not a full consent-management platform. It does not block third-party scripts before consent.  
 If you use analytics, tracking pixels, embedded videos, or marketing tools, you may need stricter consent handling.
 
 ## Versions
