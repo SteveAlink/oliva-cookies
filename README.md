@@ -2,6 +2,8 @@
 By Steve Alink for Oliva Solutions
 
 Simple WonderCMS plugin that shows a cookie notice until the visitor clicks **Accept**.
+It is shown as follows in the bottom of the screen:  
+<img width="2476" height="136" alt="image" src="https://github.com/user-attachments/assets/0d0d0abd-882a-46c3-82b5-7e205ebec335" />
 
 ## Installation
 1. Copy the folder `OlivaCookies` to your WonderCMS `plugins` folder.
