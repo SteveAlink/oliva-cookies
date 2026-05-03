@@ -33,5 +33,10 @@ If this value is empty, invalid, or missing, it falls back to `en_US` and popula
 This is a cookie notice plugin, not a full consent-management platform. It does not block third-party scripts before consent.  
 If you use analytics, tracking pixels, embedded videos, or marketing tools, you may need stricter consent handling.
 
+### Download the plugin via
+```text
+https://raw.githubusercontent.com/SteveAlink/oliva-events/main/wcms-modules.json
+```
+
 ## Versions
 1.0.1 29-Apr-2026 Initial version
